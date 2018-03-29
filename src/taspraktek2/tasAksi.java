@@ -9,6 +9,9 @@ public class tasAksi {
        w1.cetakinfo();
       System.out.println("Hasil keuntungan ="+w1.hitungkeuntungan());
       w1.cetakkeuntungan();
+      
+     Tas2 w2 = new Tas2();
+        w2.cetakinfo();
     }
     
 }

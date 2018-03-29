@@ -2,6 +2,12 @@ package taspraktek2;
 public class Tas2 {
     double hargatas;
     double jumlahtas;
+
+    public Tas2() {
+    hargatas = 600000;
+    jumlahtas = 5;
+    }
+    
     
     void cetakinfo(){
         System.out.println("*************************");
