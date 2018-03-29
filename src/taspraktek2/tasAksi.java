@@ -7,7 +7,8 @@ public class tasAksi {
        w1.jumlahtas = 5;
        
        w1.cetakinfo();
-      
+      System.out.println("Hasil keuntungan ="+w1.hitungkeuntungan());
+      w1.cetakkeuntungan();
     }
     
 }

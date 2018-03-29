@@ -9,4 +9,14 @@ public class Tas2 {
         System.out.println("jumlahtas : "+jumlahtas);
         System.out.println("**************************");
     }
+       double hitungkeuntungan(){
+         double keuntungan;
+         keuntungan=hargatas*jumlahtas;
+         return keuntungan;
+         
+        }
+        void cetakkeuntungan(){
+         System.out.println("keuntungan adalah :"+hitungkeuntungan());
+     }
+        
 }
