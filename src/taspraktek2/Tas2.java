@@ -7,6 +7,11 @@ public class Tas2 {
     hargatas = 600000;
     jumlahtas = 5;
     }
+
+    public Tas2(double hargatas, double jumlahtas) {
+        this.hargatas = hargatas;
+        this.jumlahtas = jumlahtas;
+    }
     
     
     void cetakinfo(){

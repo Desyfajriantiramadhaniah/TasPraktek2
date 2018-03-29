@@ -12,6 +12,9 @@ public class tasAksi {
       
      Tas2 w2 = new Tas2();
         w2.cetakinfo();
+    
+        Tas2 w3 = new Tas2(600000,5);
+        w3.cetakinfo();
     }
     
 }
