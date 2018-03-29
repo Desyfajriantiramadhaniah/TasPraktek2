@@ -2,8 +2,9 @@ package taspraktek2;
 
 public class tasAksi {
     public static void main(String[] args) {
-        tas w1 = new tas();
-       
+        Tas2 w1 = new Tas2();
+       w1.hargatas = 600000;
+       w1.jumlahtas = 5;
     }
     
 }
